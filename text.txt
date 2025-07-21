@@ -1,0 +1,219 @@
+<------------------- DAY 1 ---------------------->
+email -- API -- server 
+
+cleint --- > API ---> ecomerce ---> API (email)
+
+client --- >   API ----- > Server ---- > database
+react ---->   url ------>  any software (N, E) ----- > mongo db
+
+
+REST ful API - representational state transfer
+
+www.facebook.com -- > DNS (key, value) (string, ip)
+facebook/login
+linkdin/profile/ravindranathporandla
+
+API - used for communication or data exchange b/t softwares
+
+hhtp methods
+
+- get
+- post
+- put 
+- delete
+
+
+hhtp status codes 
+- 404 error
+- 200 OK successful
+
+1XX - informational 
+2XX
+3XX
+4XX
+5XX
+
+
+
+backend 
+
+N - NODE
+E - EXPRESS
+
+NODE -> 
+
+JS --- > Chrome -   NODE js - (JS(wrapper(((V8 engine) -- C and C++))))
+firefox -- monkey 
+
+computer phones -- server
+
+// coding X
+// runtime environment -- provided to run js out of webbroweser
+
+react --> node
+
+static - HTML
+CSS
+JS
+
+WEB application 
+--- front   (JS)
+--- backend (C, C++, Java, Python)
+--- DB  (SQL, ....)
+
+
+
+C, C++
+Java - C, C++
+Python -- C c++
+Kotlin - Java
+
+
+
+LTS --- Long term support
+NODE, Python , jdk
+
+node
+
+
+npm = ? node package manager (cloud)
+
+
+node ---> not use this cmd again
+
+
+tool - express (npm)--- framework js
+
+
+
+
+res ----> calc  <----- res
+
+
+int add(){
+
+}
+
+add()
+
+
+65535 - 8081-hhtps\
+21 - ftp
+localhost:3000/home/profile
+127.0.0.1
+
+
+hot reload -- nodemon
+
+live reload -- off on off on
+
+
+
+
+
+
+git init --- .git
+
+staging area -- git add .
+
+
+
+
+
+---------------- DAY 1 Summary (Backend)--------------------
+
+node js
+API - REST (GraphQL)
+express
+status codes
+http methods
+start backend server
+npm 
+nodemon
+script
+hot reload, live reload
+.env
+.gitignore
+git flow (staging, commit, push)
+
+
+
+
+
+------------------------------ Day 2 (React) --------------------------------------
+
+React -- library
+Angular -- framework
+
+library vs framework
+library - tools, packages, no strict rules
+framework - strict rules
+
+
+
+Plain JS 
+--vennila js
+
+DOM
+
+transpiles
+
+React ?
+-- companies
+-- demand
+-- SAP 
+
+
+--> react fibre ***
+--> reconcilation ***
+
+npm - node package manager  (download)
+npx - node package execute  (not download)
+
+
+
+
+how to create a basic react application (bundlers)
+1. npm create-react-app <app_name>    (.js)
+2. npm create vite@latest              (.jsx)   (more preferred)
+3. custom react app creation
+
+
+CRA             vite
+webpack        esbuild(dev), rollup(pro)
+babel           esbuild, babel
+
+
+
+react - priciples 
+
+web application     - react dom
+mobile application  - react native
+
+
+<----------------------- DAY 2 Summary ------------------------------->
+- react
+- react dom
+- react native
+- virtual dom
+- types of creating react application
+- npm vs npx
+- CRA vs vite
+- client vs server
+- react functional component export (rfce)
+- useState hook
+- react fiber 
+- reconsilation
+- hydration
+- library vs framework
+- torrents 
+- cloud ?
+
+
+
+---------------------- DAY 3 ---------------------------------
+
+link(local) vs hyperlink(external)
+
+
+
