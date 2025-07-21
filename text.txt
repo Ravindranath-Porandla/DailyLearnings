@@ -211,9 +211,14 @@ mobile application  - react native
 
 
 
----------------------- DAY 3 ---------------------------------
+---------------------- DAY 3 (Summary)---------------------------------
 
-link(local) vs hyperlink(external)
+- link(local) vs hyperlink(external)
+- axios
+- proxy setup
+- git and github commands (git init, add, push, origin, status, branch, main vs master)
+- connecting backend with frontend
+- merge conflit (git and github)
 
 
 
