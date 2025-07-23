@@ -222,3 +222,39 @@ mobile application  - react native
 
 
 
+
+
+----------------------------------- Day 4 -------------------------------------
+
+
+node - ?
+ open src           - anyone can view , edit, update
+ cross platform     - os (mac, ios, andriod, windows, simbion, etc)
+ run time env       - js
+
+
+- REPL 
+- Module wrapper - module, require, __filename, __dirname, exports
+- new ES6 imports and exports
+- package.json : type : "module"  <--- "commonjs"
+- path package in node js - basename, parse, normalise, etc
+
+---------------------------------- DAY 5 (System Design basics) ----------------------
+
+- client 
+- server
+- CDN 
+- Load Balancer
+- API GateWay
+- Polyglot persistance
+- Message Queues
+- Replication vs Redundancy
+- Caching
+- Rate Limiting
+- DNS
+- virtualisation
+- docker
+- container orchestration
+- kubernetes
+
+
