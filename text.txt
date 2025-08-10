@@ -258,3 +258,23 @@ node - ?
 - kubernetes
 
 
+
+-----------------------  DAY 6 --------------------------
+- System Design of Twitter
+- Fan out architecture
+- fan out on read 
+- fan out on write
+- cloud front (CDN)
+- redis (in mem cache)
+- kafka (Message Queue)
+- Rate Limiters
+- Elastic Search
+- BLOB - Binary Large Object (S3)
+- Cloud Regios ---> Avalability Zones ---> Data Centers ---> Server Rooms ( racks )
+- Public Load Balancers vs Service or Internal Load Balancers
+- API GateWay
+
+
+Twitter System Design link on eraser.io : 
+https://app.eraser.io/workspace/9BKPlOM1HPaCRJ4gYoww?origin=share
+
