@@ -28,10 +28,10 @@ hhtp status codes
 - 200 OK successful
 
 1XX - informational 
-2XX
-3XX
-4XX
-5XX
+2XX - successful
+3XX - redirection
+4XX - client side error
+5XX - server side error
 
 
 
@@ -278,3 +278,46 @@ node - ?
 Twitter System Design link on eraser.io : 
 https://app.eraser.io/workspace/9BKPlOM1HPaCRJ4gYoww?origin=share
 
+
+
+----------------------- DAY 7 (System Design) ---------------------------------
+
+1. What is System Design?
+ - larger component -- > smaller components
+ - architecture, fullfiling the requirements (funct and non - funct)
+ - tradeoffs
+ - proper planning
+ - iterative process (plan(Design), develop, test, deployment)
+
+2. Performace vs Scalability
+ - Performace : how fast your system process for single user
+ - Scalability : making your system perform in the same way as having a single user to meet many user requests.
+
+3. Latency vs Throughput
+ - Latency : request time - response time
+ - Throughput : no.of req / unit time
+
+4. Avalability vs Consistency
+ - Avalability - uptime during failure of some components
+               - 9's 
+                 19s - 90.00%
+                 29s - 99.00%
+                 59s - 99.999%
+
+ - Consistency - all users should see the same data at the same time
+
+ 5. CAP theorem
+  - System is expected to have either of C / A at the time of partition at the same time
+
+6. Consistency patterns
+ - weak Consistency
+ - eventual Consistency
+ - strong Consistency
+
+7. Availability patterns
+ - 9s
+ - parallel vs sequence
+
+8. Fail Over
+ - Active - Passive : cold standby, hot standby, floationg IP, master - slave
+ - Active - Active : DNS need to know both if public, master - master
